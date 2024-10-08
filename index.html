@@ -12,8 +12,8 @@
   <body>
     <main id="content">
       <div id="banner">
-        <img id="desktop-banner" src="./images/banner_desktop.png" />
-        <img id="mobile-banner" src="./images/banner_mobile.png" />
+        <img class="desktop-image" src="./images/banner_desktop.png" />
+        <img class="mobile-image" src="./images/banner_mobile.png" />
       </div>
 
       <hgroup id="introduction">
@@ -27,16 +27,38 @@
       </hgroup>
 
       <div class="section" id="overview-section">
+        <div class="overview-image">
+          <img
+            loading="lazy"
+            class="desktop-image"
+            src="./images/overview_desktop.png"
+          />
 
+          <img
+            loading="lazy"
+            class="mobile-image"
+            src="./images/overview_mobile.png"
+          />
+        </div>
+
+        <div id="overview-text">
+          <p>
+            I'm a software engineer by profession, mostly developing websites but also working on mobile apps and games.
+          </p>
+
+          <p>
+            Right now, I'm on a working holiday in New Zealand and loving every second of it.
+          </p>
+
+          <p>
+            In my free time, I usually browse the internet or watch shows. When the weather's good, I like to go hiking or skiing, depending on the season.
+          </p>
+        </div>
       </div>
 
-      <div class="section" id="projects-sections">
+      <div class="section" id="projects-sections"></div>
 
-      </div>
-
-      <div class="section" id="services-sections">
-
-      </div>
+      <div class="section" id="services-sections"></div>
     </main>
   </body>
 </html>

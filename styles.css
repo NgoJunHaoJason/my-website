@@ -65,6 +65,18 @@ ul {
 
 /* end of global styles */
 
+img.desktop-image {
+  @media (width < 768px) {
+    display: none;
+  }
+}
+
+img.mobile-image {
+  @media (width >= 768px) {
+    display: none;
+  }
+}
+
 main#content {
   font-family: Teachers;
 
@@ -79,18 +91,6 @@ main#content {
   }
 }
 
-img#desktop-banner {
-  @media (width < 768px) {
-    display: none;
-  }
-}
-
-img#mobile-banner {
-  @media (width >= 768px) {
-    display: none;
-  }
-}
-
 hgroup#introduction {
   text-align: center;
 }
@@ -98,5 +98,34 @@ hgroup#introduction {
 h1#greeting {
   @media (width < 768px) {
     font-size: 24px;
+  }
+}
+
+div.section {
+  margin: 0px 256px;
+
+  @media (width < 768px) {
+    margin: 0px 32px;
+  }
+}
+
+div#overview-section {
+  display: flex;
+  gap: 64px;
+
+  @media (width < 768px) {
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+
+div#overview-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+
+  @media (width < 768px) {
+    gap: 16px;
   }
 }
