@@ -39,7 +39,7 @@ body {
   background-color: white;
 
   @media (width < 768px) {
-    font-size: 16px;
+    font-size: 17px;
   }
 }
 
@@ -108,7 +108,7 @@ hgroup#introduction {
 
 h1#greeting {
   @media (width < 768px) {
-    font-size: 24px;
+    font-size: 25px;
   }
 }
 
@@ -174,3 +174,15 @@ img.project-logo {
 }
 
 /* end of projects styles */
+
+div#services-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  text-align: center;
+
+  @media (width < 768px) {
+
+  }
+}
