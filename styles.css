@@ -87,6 +87,10 @@ div.divider {
 
 /* end of common styles */
 
+img.banner-image {
+  width: 100%;
+}
+
 main#content {
   font-family: Teachers;
 
