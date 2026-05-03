@@ -1,6 +1,6 @@
 # My Website
 
-Website for Jason Ngo
+My personal website
 
 ## Deployment
 
@@ -16,11 +16,15 @@ However, the new method does not support custom domain names yet.
 
 ### Deployment Set-up
 
+- Set repo name to `pages`
+  - Set branch name to `pages`
 - Set domain(s) in `.domains` in root folder
+  - Add line: `jason.ngo`
+  - Add line: `jasonngo.codeberg.page`?
 - Add Codeberg DNS records
-  - name jason.ngo, type A, data 217.197.84.141
-  - name jason.ngo, type AAAA, data 2a0a:4580:103f:c0de::2
-  - name jason.ngo, type TXT, data jasonngo.codeberg.page
+  - name `jason.ngo`, type `A`, data `217.197.84.141`
+  - name `jason.ngo`, type `AAAA`, data `2a0a:4580:103f:c0de::2`
+  - name `jason.ngo`, type `TXT`, data `jasonngo.codeberg.page`
 
 ### References
 

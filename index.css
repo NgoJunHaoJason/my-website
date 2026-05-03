@@ -1,0 +1,41 @@
+/* start of common styles */
+
+#content {
+  font-family: Teachers;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 100vw;
+  height: 100vh;
+
+
+  @media (width <= 768px) {
+    gap: 16px;
+  }
+
+  @media (width > 768px) {
+    gap: 32px;
+  }
+}
+
+#introduction {
+  text-align: center;
+}
+
+#greeting {
+  @media (width <= 768px) {
+    font-size: 24px;
+  }
+}
+
+.divider {
+  border-top: 1px solid var(--shadow-color);
+}
+
+/* end of common styles */
+
+#other-pages {
+  text-align: center;
+}
