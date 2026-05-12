@@ -14,6 +14,18 @@
   --secondary-color: royalblue;
   --tertiary-color: darkorange;
   --shadow-color: #4169e132;
+
+  --color-blue-1: royalblue;
+  --color-blue-2: cornflowerblue;
+  --color-blue-3: lightskyblue;
+
+  --color-brown-1: sienna;
+  --color-brown-2: peru;
+  --color-brown-3: rosybrown;
+
+  --color-gray-1: slategray;
+  --color-gray-2: gray;
+  --color-gray-3: silver;
 }
 
 /* end of variable declarations */
@@ -32,9 +44,13 @@ p {
   margin: 0;
 }
 
+html {
+  font-family: Arial, Helvetica, sans-serif; /* fallback */
+}
+
 body {
   font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif; /* fallback */
+  font-family: Teachers;
   color: var(--primary-color);
   background-color: white;
 
@@ -53,13 +69,18 @@ a {
   }
 }
 
+hr {
+  margin: 0;
+  border: 0.5px solid var(--color-gray-3);
+}
+
 address {
   font-style: normal;
 }
 
 img {
-  max-width: 100%;
   display: block;
+  max-width: 100%;
 }
 
 ul {
