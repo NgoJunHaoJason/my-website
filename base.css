@@ -63,11 +63,11 @@ body {
 }
 
 a {
-  color: var(--secondary-color);
+  color: var(--color-blue-1);
   text-decoration: none;
 
   &:hover {
-    color: var(--tertiary-color);
+    color: var(--color-blue-2);
     text-decoration: underline;
   }
 }
